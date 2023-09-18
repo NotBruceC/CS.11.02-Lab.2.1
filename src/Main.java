@@ -2,25 +2,15 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(add(1,3));
-        System.out.println(add(1,2,3,4));
-        System.out.println(morninggreeting("Toby Fox"));
-        System.out.println(afternoongreeting( "Mac Miller"));
-        System.out.println(triple( "oohbaby"));
-        System.out.println(half( 19));
-        System.out.println(roundPositiveValueToNearestInteger(8.5));
-        System.out.println(roundPositiveValueToNearestInteger(8.49));
-        System.out.println(roundNegativeValueToNearestInteger(-8.49));
-        System.out.println(roundNegativeValueToNearestInteger(-8.5));
-    }
 
-    public static String morninggreeting(String name) {
-        return "早上好앟," + name +"!";
     }
-    // 4. afternoonGreetingnoonGreeting
+    public static String morningGreeting(String name) {
+        return "早上好, " + name +"!";
+    }
+    // 4. afternoonGreeting
 
-    public static String afternoongreeting(String name) {
-        return "下午好앟," + name +"!";
+    public static String afternoonGreeting(String name) {
+        return "下午好, " + name +"!";
     }
 
     // 1. add.
